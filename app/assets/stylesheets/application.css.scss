@@ -18,3 +18,6 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
+// font aweasome https://github.com/FortAwesome/font-awesome-sass
+@import "font-awesome-sprockets";
+@import "font-awesome";
