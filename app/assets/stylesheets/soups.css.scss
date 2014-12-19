@@ -1,3 +1,20 @@
 // Place all the styles related to the Soups controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+//@import "base/varibles.scss";
+
+$base-color: #990000;
+$light-base: lighten($base-color, 10%);
+$dark-base: darken($base-color, 10%);
+$black: #1A1A1A;
+$off-white: #f6f9fa;
+$grey: #999999;
+
+html {
+	background-color: $base-color;
+}
+
+body {
+	text-align: center;
+}
