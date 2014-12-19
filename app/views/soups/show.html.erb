@@ -1,6 +1,6 @@
 <h1><%= @soup.name%></h1>
 
-<%= image_tag "Ramen.jpg" %>
+<%= image_tag @soup.name.delete(" ") + ".jpg" %>
 <!--  + " " + @category.find_by_id(@soup.category_id) -->
 <p>This soup has a rating of <%= @soup.rating%></p>
 
