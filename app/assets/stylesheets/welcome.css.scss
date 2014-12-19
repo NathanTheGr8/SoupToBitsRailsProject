@@ -1,3 +1,18 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$base-color: #990000;
+$light-base: lighten($base-color, 10%);
+$dark-base: darken($base-color, 10%);
+$black: #1A1A1A;
+$off-white: #f6f9fa;
+$grey: #999999;
+
+html {
+	background-image: url("/assets/images/SoupShop.jpg");
+}
+
+body {
+	text-align: center;
+}
