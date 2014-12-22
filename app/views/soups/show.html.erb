@@ -11,3 +11,5 @@
 <% end %>
 
 <p><%= link_to "Toggle Featured", toggle_featured_path(@soup) %></p>
+
+<p><%= link_to "Back to " + @soup.category.name.to_s + " Category", category_path(@soup.category_id) %></p>
